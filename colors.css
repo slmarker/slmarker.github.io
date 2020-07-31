@@ -1,0 +1,8 @@
+#colorDiv { display: inline-block; width: 200px;height: 200px;background-color: rgba(100, 50, 20, 0.5);}
+html{ 
+    background-color: #e0e0e0;
+    background-image: url(img/farmer.jpeg);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: 100px;
+    }

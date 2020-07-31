@@ -1,0 +1,12 @@
+@font-face { font-family: "oswald"; src: url(fonts/Oswald-Regular.ttf); font-weight: 500;}
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto&display=swap');
+#skills{color: rgb(27, 172, 172);}
+h2{ color: red;font-family: "oswald";text-align: center;line-height: normal; font-weight: bolder;}
+.content {color: rgb(84, 136, 24); font-family: 'Lobster Two', cursive; font-size: 28px; margin: 12px 10px 24px 0px; border: solid;}
+p {color: #884a18; max-width: 75%;min-height: 75%; font-family: 'Lobster Two', cursive; font-size: 28px; border: dashed 2px; padding-top: 50px;}
+img {width: 260px;height: 200px; margin: 1%;box-shadow: 3px 3px 7px red;}
+h1{    font-family: 'Lobster Two', cursive;text-align: center; text-transform: capitalize;}
+.bold{font-weight: bold;}
+.img-div{background-color: darkseagreen;margin: 1%;box-shadow: 3px 3px 7px black;}
+#img-1 {position: relative;top: 10px;}
+#img-2 {position: fixed;top: 10px;left: 10px;}

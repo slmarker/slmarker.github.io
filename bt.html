@@ -63,15 +63,53 @@
                 One of three columns
             </div>
         </div>
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-info">Info</button>
-        <button type="button" class="btn btn-light">Light</button>
-        <button type="button" class="btn btn-dark">Dark</button>
-        <button type="button" class="btn btn-link">Link</button>
+    </div>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h3>
+                    Hambi rendelés:
+                </h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Feltét</label>
+                        <input type="text" name="top-input" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mennyiség</label>
+                        <input type="number" name="amount-input" class="form-control" value="1">
+                        <small class="form-text text-muted">
+                            Minimum 1, maximum 10db
+                        </small>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">A feltételeket elfogadom</label>
+                    </div>
+                    <div class="form-group">
+                        Fizetendő: <span class="show-amount">0</span>Ft
+                    </div>
+                    <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>   
+
+        <script src="js/main.js">
+
+        </script>
 </body>
 
 </html>
