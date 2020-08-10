@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Little Tommy",
+      "email": "lt@gmail.com"
+    }
+  ],
+  "comments": []
+}
